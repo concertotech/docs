@@ -1,0 +1,47 @@
+---
+sidebar_position: 1
+---
+
+# Styling
+
+## Using Tailwind CSS
+
+Tailwind CSS is a utility-first CSS framework that makes it easy to build custom designs quickly. Here's an example of an HTML code using Tailwind CSS:
+
+```tsx
+<button
+	onClick={() => alert("Clicked!")}
+	class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow"
+>
+	Click me
+</button>
+```
+
+<button
+	onClick={() => alert("Clicked!")}
+	class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow"
+>
+	Click me
+</button>
+
+This code creates a button with a blue background, white text, and a drop shadow. When you hover over the button, the background color will darken.
+
+## Using CSS Modules
+
+CSS Modules are a way to locally scope CSS by automatically creating unique class names. To use CSS Modules in a Docusaurus project, create a **`styles.module.css`** file in your component folder. Here's an example component folder structure:
+
+```text title="Component folder structure"
+MyComponent/
+  ├── index.tsx
+  └── styles.module.css
+```
+
+## Modifying CSS Variables
+
+### Infima
+
+Docusaurus uses **[Infima](https://infima.dev/)** as its default CSS framework. Infima is a responsive and modular CSS framework built specifically for documentation websites. To customize the styling of your Docusaurus site, you can override Infima's CSS variables.
+
+### Other Variables
+
+In addition to Infima's CSS variables, we have included custom variables in our template to facilitate further customization. You can find these variables in the **`src/styles`** folder.

@@ -1,0 +1,171 @@
+---
+sidebar_position: 4
+---
+
+# MDX Components
+
+import LoomVideo from "@site/src/components/global/LoomVideo";
+import DocsCard from "@site/src/components/global/DocsCard";
+import GithubSvg from "/static/logos/github.svg";
+
+### **Built-in components**
+
+Docusaurus provides built-in components such as tabs, diagrams, and more. To explore these components and learn how to use them, please refer to the **[official Docusaurus documentation on markdown features](https://docusaurus.io/docs/markdown-features)**.
+
+## **MDX Components we've made**
+
+### **LoomVideo**
+
+The **`LoomVideo`** component is designed to embed Loom videos in your documentation. To use it, provide the video's **`src`** as a prop. You can also control the visibility of the owner, title, share, and embed elements using the **`hideOwner`**, **`hideTitle`**, **`hideShare`**, and **`hideEmbed`** props, respectively.
+
+Example:
+
+```tsx
+<LoomVideo
+	src="https://www.loom.com/embed/your_loom_video_id"
+	hideOwner
+	hideTitle
+	hideShare
+	hideEmbed
+/>
+```
+
+<LoomVideo
+	src="https://www.loom.com/embed/de9f9b50f25041e98f2d634accd5eacd"
+	hideOwner
+	hideTitle
+	hideShare
+	hideEmbed
+/>
+
+Refer to `src/components/global/LoomVideo/index.tsx` file for additional props and usage details.
+
+### **Docs cards**
+
+The **`DocsCard`** component is a custom component created to display documentation cards in a visually appealing manner. It accepts an image source or a ReactNode, alt text, title, description, call-to-action (CTA) link, and optional CTA text.
+
+Example:
+
+```tsx
+import GithubSvg from "/static/logos/github.svg";
+
+<DocsCard
+	imgSrcOrNode={
+		<GithubSvg className={"text-primary my-m"} height={"auto"} width={"auto"} />
+	}
+	className={"my-8"}
+	altText="Image Alt Text"
+	title="Title"
+	description="Description"
+	ctaLink="/some/path/or/url"
+	ctaText="Learn More"
+/>;
+```
+
+<DocsCard
+	imgSrcOrNode={
+		<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+	}
+	className={"my-8"}
+	altText="Image Alt Text"
+	title="Title"
+	description="Description"
+	ctaLink="/some/path/or/url"
+	ctaText="Learn More"
+/>
+
+Or even build some complex grids
+
+```tsx
+<div className={"grid grid-cols-2 gap-4 my-8"}>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+</div>
+```
+
+<div className={"grid grid-cols-2 gap-4 my-8"}>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+	<DocsCard
+		imgSrcOrNode={
+			<GithubSvg className={"text-primary"} height={"auto"} width={"auto"} />
+		}
+		altText="Image Alt Text"
+		title="Title"
+		description="Description"
+		ctaLink="/some/path/or/url"
+		ctaText="Learn More"
+	/>
+</div>
+
+Refer to `src/components/global/DocsCard/index.tsx` file for additional props and usage details.
+
+**Creating a custom component**
+
+If you want to create a custom component for your documentation and believe it would be useful for other projects, consider **[opening a PR](https://github.com/usher-labs/docs-template/compare)** on the template repo to add it. If your custom component is small and specific to your project, remember that you can use HTML directly within your MDX files.
