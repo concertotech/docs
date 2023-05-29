@@ -8,7 +8,7 @@ sidebar_position: 3
 ## Authentication with Private Key
 
 ```ts
-const streamr = new LogStoreClient({
+const logStoreClient = new LogStoreClient({
   auth: {
     privateKey: 'your-private-key',
   },
@@ -20,7 +20,7 @@ Private keys can also be generated using `LogStoreClient.generateEthereumAccount
 ## Authentication with Web3 Provider
 
 ```ts
-const streamr = new LogStoreClient({
+const logStoreClient = new LogStoreClient({
   auth: {
     ethereum: window.ethereum,
   },
