@@ -14,7 +14,7 @@ const config = {
 	url: "https://docs.concerto.technology",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/docs/",
+	baseUrl: "/",
 	trailingSlash: false,
 
 	// GitHub pages deployment config.
@@ -47,7 +47,7 @@ const config = {
 				// Remove this to remove the "edit this page" links.
 				editUrl:
 					// INITIAL TODO change this to your repo. This is where a user will be redirected to if they follow the link on "edit this page"
-					"https://github.com/usherlabs/docs-template/tree/develop/"
+					"https://github.com/usherlabs/concerto-docs/tree/main/"
 			}
 		],
 		// This plugin enables tailwind
@@ -166,9 +166,9 @@ const config = {
 						// INITIAL TODO may change if you would want different action from user
 						type: "custom-cta",
 						position: "right",
-						label: "Register your interest",
+						label: "Return to Docs",
 						target: "_blank",
-						href: "https://www.usher.so/brands/register-interest/"
+						href: "https://concerto.technology/docs"
 					},
 					{
 						type: "custom-separator",
