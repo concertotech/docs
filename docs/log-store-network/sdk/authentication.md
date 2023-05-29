@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Authentication
 
-## Authentication with Private Key
+## Using a Private Key
 
 ```ts
 const logStoreClient = new LogStoreClient({
@@ -17,7 +17,7 @@ const logStoreClient = new LogStoreClient({
 
 Private keys can also be generated using `LogStoreClient.generateEthereumAccount()`.
 
-## Authentication with Web3 Provider
+## Using a Web3 Provider
 
 ```ts
 const logStoreClient = new LogStoreClient({
