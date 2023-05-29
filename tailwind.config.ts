@@ -19,14 +19,14 @@ const colors = {
 	 *  - src/styles/colors.scss
 	 *  - specific components styles at their own files
 	 */
-	...generateColorShades("primary", "#0077ff"),
-	...generateColorShades("secondary", "#fac900"),
-	...generateColorShades("emphasis", "#c24943"),
+	...generateColorShades("primary", "#855b7c"),
+	...generateColorShades("secondary", "#D9CBA3"),
+	...generateColorShades("emphasis", "#D1A455"),
 
-	...generateColorShades("warning", "#f6c343"),
-	...generateColorShades("info", "#3296f3"),
-	...generateColorShades("success", "#22c55e"),
-	...generateColorShades("danger", "#d23c3c"),
+	...generateColorShades("warning", "#FFAA00"),
+	...generateColorShades("info", "#3A7CA5"),
+	...generateColorShades("success", "#228B22"),
+	...generateColorShades("danger", "#CC0000"),
 
 	// it's more beautiful not to go full black, opacity makes it blend to the background to look even better
 	black: withOpacity(blackRGB, 0.85),

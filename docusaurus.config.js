@@ -7,20 +7,20 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "Usher Docs Template", // INITIAL TODO
-	tagline: "This is the template to be used by Usher Documentations", // INITIAL TODO
-	favicon: "img/favicon.ico", // INITIAL TODO don't forget to change your favicon for this project, if needed
+	title: "Concerto Docs",
+	tagline: "Concerto is a research & development initiative to enable Data Protocols - Custom and verifiable data-driven digital asset management.", // INITIAL TODO
+	favicon: "img/favicon.ico",
 
-	url: "https://usherlabs.github.io", // INITIAL TODO
+	url: "https://docs.concerto.technology",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/docs-template/",
+	baseUrl: "/",
 	trailingSlash: false,
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "usherlabs",
-	projectName: "docs-template", // INITIAL TODO Usually your repo name.
+	projectName: "concerto-docs",
 	deploymentBranch: "main",
 
 	onBrokenLinks: "throw",
@@ -89,30 +89,25 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			// INITIAL TODO: Replace with your project's social card
-			image: "img/docusaurus-social-card.jpg",
+			// image: "img/docusaurus-social-card.jpg",
 			navbar: {
 				hideOnScroll: true,
 				logo: {
 					alt: "Site Logo", // no need to change, it's the default for accessibility reasons
-					src: "logos/UsherLearnLogomark.svg", // INITIAL TODO
-					srcDark: "logos/UsherLearnLogomark_drk.svg", // INITIAL TODO
+					src: "logos/ConcertoLogo.png", // INITIAL TODO
+					srcDark: "logos/ConcertoLogo.png", // INITIAL TODO
 					target: "_self",
+					width: "auto",
+					height: "38",
 					href: "/"
 				},
 				items: [
 					{
 						type: "docSidebar",
-						sidebarId: "our-template",
-						label: "Our Template",
+						sidebarId: "log-store-network",
+						label: "Logs Store Network",
 						position: "left"
 					},
-					{
-						type: "docSidebar",
-						sidebarId: "docusaurus-specific",
-						position: "left",
-						label: "Docusaurus specific"
-					},
-
 					// Right side starts here
 					{
 						type: "search",
