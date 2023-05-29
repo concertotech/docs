@@ -1,6 +1,8 @@
 ---
-title: "Query data"
+title: "Query Data"
 sidebar_position: 2
 ---
 
-# Query data
+# Query Data
+
+Coming soon...

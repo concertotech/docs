@@ -1,6 +1,8 @@
 ---
-title: "Store data"
-sidebar_position: 1
+title: "Store Data"
+sidebar_position: 3
 ---
 
-# Store data
+# Store Data
+
+Coming soon...

@@ -14,7 +14,7 @@ const config = {
 	url: "https://docs.concerto.technology",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: "/",
+	baseUrl: "/docs/",
 	trailingSlash: false,
 
 	// GitHub pages deployment config.
@@ -27,7 +27,7 @@ const config = {
 	onBrokenMarkdownLinks: "warn",
 
 	// Even if you don't use internalization, you can use this field to set useful
-	// metadata like html lang. For example, if your site is Chinese, you may want
+	// metadata like html lan g. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: "en",
@@ -88,17 +88,16 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
-			// INITIAL TODO: Replace with your project's social card
 			// image: "img/docusaurus-social-card.jpg",
 			navbar: {
 				hideOnScroll: true,
 				logo: {
 					alt: "Site Logo", // no need to change, it's the default for accessibility reasons
-					src: "logos/ConcertoLogo.png", // INITIAL TODO
-					srcDark: "logos/ConcertoLogo.png", // INITIAL TODO
+					src: "/logos/ConcertoLogo.svg",
+					srcDark: "/logos/ConcertoLogo_dark.svg", // INITIAL TODO
 					target: "_self",
-					width: "auto",
-					height: "38",
+					width: "139",
+					height: "44",
 					href: "/"
 				},
 				items: [
@@ -117,15 +116,47 @@ const config = {
 						label: "Stay tuned",
 						position: "right",
 						items: [
+							// 					{
+							// 						type: "custom-iconLink",
+							// 						position: "right",
+							// 						icon: {
+							// 							alt: "twitter logo",
+							// 							src: `/logos/twitter.svg`,
+							// 							href: "https://twitter.com/usher_web3",
+							// 							target: "_blank"
+							// 						}
+							// 					},
+							// 					{
+							// 						type: "custom-iconLink",
+							// 						position: "right",
+							// 						icon: {
+							// 							alt: "discord logo",
+							// 							src: `/logos/discord.svg`,
+							// 							href: "https://go.usher.so/discord",
+							// 							target: "_blank"
+							// 						}
+							// 					},
 							{
-								href: "https://usher.so",
+								href: "https://concerto.technology",
 								label: "Our Homepage",
 								target: "_blank",
 								rel: null
 							},
 							{
-								href: "https://usher.so/blog",
-								label: "Blog",
+								label: "Follow us",
+								href: "https://twitter.com/usher_web3",
+								target: "_blank",
+								rel: null
+							},
+							{
+								label: "Join our Discord server",
+								href: "https://go.usher.so/discord",
+								target: "_blank",
+								rel: null
+							},
+							{
+								label: "Discover Usher Labs",
+								href: "https://linktr.ee/usher.so",
 								target: "_blank",
 								rel: null
 							}
@@ -147,36 +178,13 @@ const config = {
 						type: "custom-iconLink",
 						position: "right",
 						icon: {
-							alt: "twitter logo",
-							src: `/logos/twitter.svg`,
-							href: "https://twitter.com/usher_web3",
-							target: "_blank"
-						}
-					},
-					{
-						type: "custom-iconLink",
-						position: "right",
-						icon: {
 							alt: "github logo",
 							src: `/logos/github.svg`,
-							href: "https://github.com/usherlabs/docs-template", // INITIAL TODO
+							href: "https://github.com/usherlabs/",
 							target: "_blank"
 						}
 					},
-					{
-						type: "custom-iconLink",
-						position: "right",
-						icon: {
-							alt: "discord logo",
-							src: `/logos/discord.svg`,
-							href: "https://go.usher.so/discord",
-							target: "_blank"
-						}
-					}
 				]
-			},
-			colorMode: {
-				defaultMode: "light"
 			},
 			prism: {
 				theme: lightCodeTheme,
