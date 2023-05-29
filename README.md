@@ -1,70 +1,8 @@
-# About docs-template
+# 📖 **Welcome to Concerto Documentation repository**
 
-This docs-template provides a starting point for creating project documentation using Docusaurus 2 and Tailwind CSS. This README  covers how to use the template, contribute to its development, and follow best practices.
+This is the home of the Concerto documentation repository! Here, we aim to help our users make the  best of Data Protocols — Custom and verifiable data-driven digital asset management.
 
-## Features
-
-- TailwindCSS integration
-- Dark-mode
-- Mobile & desktop ready
-- Optional integrations:
-    - Algolia search
-    - Google Tag Manager
-    - Google Analytics
-
-# Initial structure
-
-- No homepage
-- No footer
-- Social links and other useful Usher links at the navigation bar
-
-## How to use the template
-
-1. Use the repository as a GitHub template — RECOMMENDED, or
-2. Download and extract the ZIP file, or
-3. Perform a shallow clone to create a new project without inheriting the template's Git history.
-
-Conveniently, most parts of this template that needs to be changed are accompanied by an `INITIAL TODO` comment. Read this README before, then find them all on your project to change accordingly.
-
-Example:
-
-```json
-{ 
-	// ...
-	title: "My Usher Site", // INITIAL TODO
-	// ...
-}
-```
-
-## Guide on how to customize this template
-For further instructions on how to customize this template, we've provided a guide inbuilt in this repository. You'll be able to see it by running it and navigating to http://localhost:3000 or the URL you chose to deploy it.
-
-# Contributing to the Template
-
-We encourage you to contribute by:
-
-## Proposing
-
-- Components that are useful for many documentation projects.
-- Improvements to the configuration for better usability.
-- Better comments to make our default tooling more accessible.
-
-## Reporting
-
-- Poor DX or any other issues that cause friction.
-- Bug reports.
-
----
-
-Below here is a basic structure to maintain at your docs README
-
----
-
-# 📖 **Welcome to {project} Documentation repository**
-
-This is the home of {project} docs! Here, we aim to help our users make the best of it, so they may {brief explanation of what the project helps them achieve}.
-
-{don’t forget to link the original project repository, if it exists}
+For more information about Concerto, our open-source code and technical details, please visit the [Usher Organization Profile](https://github.com/usherlabs). You will find some Concerto related repositories, along with other resources from Usher Labs.
 
 This website is built using **[Docusaurus 2](https://docusaurus.io/)**, a static website generator.
 
@@ -85,7 +23,7 @@ $ pnpm start
 
 This command starts a local development server and opens a browser window. Most changes are reflected live without having to restart the server.
 
-# C**ustomization**
+# **Customization**
 
 ## Creating and organizing content
 
@@ -167,10 +105,6 @@ This command generates static content into the `build` directory and can be serv
 
 ## Documentation d**eployment guidelines**
 
-{Insert docs deployment guidelines here; i.e.: how to deploy with vercel}
-
-e.g.:
-
 To deploy your documentation with Vercel, follow these steps:
 
 1. Sign up for a **[Vercel account](https://vercel.com/signup)** if you don't have one.
@@ -185,10 +119,10 @@ For more information on Vercel deployments, consult the **[official Vercel docum
 
 # Contributing to this documentation
 
-We welcome contributions to improve and expand the documentation for {project-name}. Here's how you can contribute:
+We welcome contributions to improve and expand the documentation for Concerto. Here's how you can contribute:
 
-1. **Report issues**: If you find any errors, inconsistencies, or areas that need improvement, please open an issue on the **[GitHub repository](https://github.com/%7Busername%7D/%7Bproject-name%7D/issues)**. Provide a clear description of the issue and suggest a possible solution or improvement.
-2. **Suggest enhancements**: If you have ideas for new sections, topics, or content that would be helpful to others, please share your suggestions by opening an issue on the **[GitHub repository](https://github.com/%7Busername%7D/%7Bproject-name%7D/issues)**.
+1. **Report issues**: If you find any errors, inconsistencies, or areas that need improvement, please open an issue on the **[GitHub repository](https://github.com/usherlabs/concerto-docs/issues)**. Provide a clear description of the issue and suggest a possible solution or improvement.
+2. **Suggest enhancements**: If you have ideas for new sections, topics, or content that would be helpful to others, please share your suggestions by opening an issue on the **[GitHub repository](https://github.com/usherlabs/concerto-docs/issues)**.
 3. **Submit a pull request**: If you'd like to contribute directly by fixing an issue or adding new content, please fork the repository, make changes, and submit a pull request. Ensure your changes follow the documentation guidelines and best practices outlined in the README.
 
-**Note**: If you want to contribute to the {project-name} source code, please visit the **[<project-name> repository](https://github.com/%7Busername%7D/%7Bproject-name%7D-source)** and follow the contribution guidelines.
+**Note**: If you want to contribute to some of Concerto technologies source code, please visit the repository at **[Usher Organization profile](https://github.com/usherlabs/)** and follow the contribution guidelines.
