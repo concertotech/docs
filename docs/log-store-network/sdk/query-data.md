@@ -13,7 +13,10 @@ sidebar_position: 5
 function queryStake(amount: BigNumberish, options = { usd: false })
 ```
 
-Stakes the specified amount of funds in order to perform queries. `amount` is a `BigNumberish` type, and `options` is an object with a single optional property, `usd`, which is a boolean indicating whether the amount is in USD.
+Stakes the specified amount of funds in order to perform queries. 
+
+- `amount` is a `BigNumberish` type
+- `options` is an object with a single optional property, `usd`, which is a boolean indicating whether the amount is in USD.
 
 ### `query`
     
@@ -23,9 +26,8 @@ function query(streamDefinition: StreamDefinition, options: QueryOptions, onMess
 
 Queries a stream for historical data.
 
-`streamDefinition` is an object containing the stream ID and partition that should be queried. `options` is an object that defines the query options.
-
-`onMessage` is an optional callback function for each message retrieved from the stream.
+- `streamDefinition` is an object containing the stream ID and partition that should be queried. `options` is an object that defines the query options.
+- `onMessage` is an optional callback function for each message retrieved from the stream.
 
 Returns a Promise that resolves to a `MessageStream` object, providing an alternative way of iterating through the messages.
 

@@ -14,9 +14,8 @@ function stakeOrCreateStore(streamIdOrPath: string, amount: BigNumberish)
 
 Creates a stream in LogStore and/or stake some funds to the provided stream.
 
-`streamIdOrPath` is the ID or path of the stream to be added.
-
-`amount` is a `BigNumberish` type representing the amount to be staked on the stream.
+- `streamIdOrPath` is the ID or path of the stream to be added.
+- `amount` is a `BigNumberish` type representing the amount to be staked on the stream.
 
 ### `removeStreamFromLogStore`
 ```ts
@@ -25,7 +24,7 @@ function removeStreamFromLogStore(streamIdOrPath: string)
 
 Removes a stream from LogStore. Returns a promise
 
-`streamIdOrPath` is the ID or path of the stream to be removed.
+- `streamIdOrPath` is the ID or path of the stream to be removed.
 
 ### `isLogStoreStream`
 ```ts
@@ -34,7 +33,7 @@ function isLogStoreStream(streamIdOrPath: string)
 
 Checks if a stream is assigned to a storage node.
 
-`streamIdOrPath` is the ID or path of the stream to check.
+- `streamIdOrPath` is the ID or path of the stream to check.
 
 ### `getLogStoreStreams`
 
