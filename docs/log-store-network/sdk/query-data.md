@@ -26,7 +26,8 @@ function query(streamDefinition: StreamDefinition, options: QueryOptions, onMess
 
 Queries a stream for historical data.
 
-- `streamDefinition` is an object containing the stream ID and partition that should be queried. `options` is an object that defines the query options.
+- `streamDefinition` is an object containing the stream ID and partition that should be queried.
+- `options` is an object that defines the query options.
 - `onMessage` is an optional callback function for each message retrieved from the stream.
 
 Returns a Promise that resolves to a `MessageStream` object, providing an alternative way of iterating through the messages.
