@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ## Installing the SDK
@@ -13,12 +13,28 @@ npm i @concertodao/logstore-client
 
 Then,
 
-```jsx
+```ts
 import LogStoreClient from "@concertodao/logstore-client";
 
 // --- or ---
 
 const LogStoreClient = require("@concertodao/logstore-client");
+```
+
+## Environment
+
+The Log Store Client can be used in both Node.js and the browser.
+
+### Node.js
+
+NodeJS `16.13.x` is the minimum required version. NodeJS `18.13.x`, NPM `8.x` and later versions are recommended.
+
+### Browser (Website/WebApps)
+
+For usage in the browser include the latest build, e.g. by including a `<script>` tag pointing at a CDN:
+
+```html
+<script src="https://unpkg.com/@concertotech/logstore-client@latest/logstore-client.web.js"></script>
 ```
 
 ## Streamr
