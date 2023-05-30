@@ -19,8 +19,8 @@ const config = {
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "usherlabs",
-	projectName: "concerto-docs",
+	organizationName: "concertotech",
+	projectName: "docs",
 	deploymentBranch: "main",
 
 	onBrokenLinks: "throw",
@@ -47,7 +47,7 @@ const config = {
 				// Remove this to remove the "edit this page" links.
 				editUrl:
 					// INITIAL TODO change this to your repo. This is where a user will be redirected to if they follow the link on "edit this page"
-					"https://github.com/usherlabs/concerto-docs/tree/main/"
+					"https://github.com/concertotech/docs/tree/main/"
 			}
 		],
 		// This plugin enables tailwind
@@ -180,7 +180,7 @@ const config = {
 						icon: {
 							alt: "github logo",
 							src: `/logos/github.svg`,
-							href: "https://github.com/usherlabs/",
+							href: "https://github.com/concertotech/",
 							target: "_blank"
 						}
 					},

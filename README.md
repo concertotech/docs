@@ -2,7 +2,7 @@
 
 This is the home of the Concerto documentation repository! Here, we aim to help our users make the  best of Data Protocols — Custom and verifiable data-driven digital asset management.
 
-For more information about Concerto, our open-source code and technical details, please visit the [Usher Organization Profile](https://github.com/usherlabs). You will find some Concerto related repositories, along with other resources from Usher Labs.
+For more information about Concerto, our open-source code and technical details, please visit the [Concerto Organization Profile](https://github.com/concertotech). You will find some Concerto related repositories, along with other resources from Concerto.
 
 This website is built using **[Docusaurus 2](https://docusaurus.io/)**, a static website generator.
 
@@ -121,8 +121,8 @@ For more information on Vercel deployments, consult the **[official Vercel docum
 
 We welcome contributions to improve and expand the documentation for Concerto. Here's how you can contribute:
 
-1. **Report issues**: If you find any errors, inconsistencies, or areas that need improvement, please open an issue on the **[GitHub repository](https://github.com/usherlabs/concerto-docs/issues)**. Provide a clear description of the issue and suggest a possible solution or improvement.
-2. **Suggest enhancements**: If you have ideas for new sections, topics, or content that would be helpful to others, please share your suggestions by opening an issue on the **[GitHub repository](https://github.com/usherlabs/concerto-docs/issues)**.
+1. **Report issues**: If you find any errors, inconsistencies, or areas that need improvement, please open an issue on the **[GitHub repository](https://github.com/concertotech/docs/issues)**. Provide a clear description of the issue and suggest a possible solution or improvement.
+2. **Suggest enhancements**: If you have ideas for new sections, topics, or content that would be helpful to others, please share your suggestions by opening an issue on the **[GitHub repository](https://github.com/concertotech/docs/issues)**.
 3. **Submit a pull request**: If you'd like to contribute directly by fixing an issue or adding new content, please fork the repository, make changes, and submit a pull request. Ensure your changes follow the documentation guidelines and best practices outlined in the README.
 
-**Note**: If you want to contribute to some of Concerto technologies source code, please visit the repository at **[Usher Organization profile](https://github.com/usherlabs/)** and follow the contribution guidelines.
+**Note**: If you want to contribute to some of Concerto technologies source code, please visit the repository at **[Concerto Organization profile](https://github.com/concertotech/)** and follow the contribution guidelines.
